@@ -1,0 +1,3 @@
+# Chaine de Markov
+
+Dans une chaîne de Markov, s'il existe un arc arrière *(c'est-à-dire une transition directe d'un état vers un autre état précédent)*, cela implique généralement qu'il n'y a pas de transition sortante vers d'autres états depuis cet état. Lorsqu'un état peut directement retourner à un état précédent, cela signifie que la probabilité de transition sortante depuis cet état vers d'autres états est nulle.
